@@ -7,3 +7,5 @@
 -8- ls -l | sed 's/Cinco/Pepe/' Alumnos.txt
 
 -9- ls -l | grep '20[10-19]' Alumnos.txt 
+
+-10- ls -l | grep '^S' Alumnos.txt
