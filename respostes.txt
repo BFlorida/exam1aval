@@ -5,3 +5,5 @@
 -7- ls –l | grep “SI” Alumnos.txt
 
 -8- ls -l | sed 's/Cinco/Pepe/' Alumnos.txt
+
+-9- ls -l | grep '20[10-19]' Alumnos.txt 
