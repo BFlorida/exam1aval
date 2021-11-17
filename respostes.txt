@@ -1,1 +1,3 @@
 -5- mv si.txt /home/alumno/examen/si
+
+-6- ls -l | awk '{ print $1 "-" $4 }' Alumnos.txt
