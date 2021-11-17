@@ -3,3 +3,5 @@
 -6- ls -l | awk '{ print $1 "-" $4 }' Alumnos.txt
 
 -7- ls –l | grep “SI” Alumnos.txt
+
+-8- ls -l | sed 's/Cinco/Pepe/' Alumnos.txt
