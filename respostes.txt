@@ -1,11 +1,11 @@
--5- mv si.txt /home/alumno/examen/si
+-e- mv si.txt /home/alumno/examen/si
 
--6- ls -l | awk '{ print $1 "-" $4 }' Alumnos.txt
+-f- ls -l | awk '{ print $1 "-" $4 }' Alumnos.txt
 
--7- ls –l | grep “SI” Alumnos.txt
+-g- ls –l | grep “SI” Alumnos.txt
 
--8- ls -l | sed 's/Cinco/Pepe/' Alumnos.txt
+-h- ls -l | sed 's/Cinco/Pepe/' Alumnos.txt
 
--9- ls -l | grep '20[10-19]' Alumnos.txt 
+-i- ls -l | grep '20[10-19]' Alumnos.txt 
 
--10- ls -l | grep '^S' Alumnos.txt
+-j- ls -l | grep '^S' Alumnos.txt
